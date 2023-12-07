@@ -65,6 +65,17 @@ picture {
   display: block;
 }
 
+body {
+  background-image: url(/images/pattern-background-mobile.svg);
+  background-repeat: no-repeat;
+}
+
+@media(min-width: 50em) {
+  body {
+    background-image: url(/images/pattern-background-desktop.svg);
+  }
+}
+
 /* Typography */
 body {
   background-color: var(--clr-neutral-400);
@@ -74,7 +85,6 @@ body {
   font-weight: var(--fw-regular);
   display: grid;
   justify-content: center;
-  align-items: center;
 }
 
 h1 {
@@ -89,6 +99,7 @@ h1 {
   background-color: var(--clr-neutral-100);
   border-radius: 20px;
   overflow: hidden;
+  margin-top: 5rem;
   text-align: center;
   width: 20.625rem;
 }
@@ -97,6 +108,15 @@ h1 {
   display: grid;
   gap: 1.5rem;
   padding: 0 1.5rem;
+}
+
+@media (min-width: 50em) {
+  .card {
+    margin-top: 12.5rem;
+  }
+  .card__body {
+    gap: 1rem;
+  }
 }
 
 .order {
