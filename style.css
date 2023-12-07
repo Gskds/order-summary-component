@@ -2,6 +2,7 @@
   --clr-primay-200: hsl(225, 100%, 94%);
   --clr-primary-300: hsl(245, 75%, 52%);
   
+  --clr-neutral-100: #fff;
   --clr-neutral-400: hsl(225, 100%, 98%);
   --clr-neutral-500: hsl(224, 23%, 55%);
   --clr-neutral-700: hsl(223, 47%, 23%);
@@ -13,7 +14,7 @@
   --fw-extra-bold: 900;
   
   --fs-200: 0.75rem;
-  --fs-400: 1rem;
+  --fs-400: 1.125rem;
   --fs-500: 1.5rem;
   --fs-700: 2rem;
 }
@@ -64,3 +65,68 @@ picture {
   display: block;
 }
 
+/* Typography */
+body {
+  background-color: var(--clr-neutral-400);
+  color: var(--clr-neutral-500);
+  font-family: var(--ff-body);
+  font-size: var(--fs-400);
+  font-weight: var(--fw-regular);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: var(--clr-neutral-700);
+  font-size: var(--fs-700);
+  font-weight: var(--fw-extra-bold);
+}
+
+/* Card */
+.card {
+  background-color: var(--clr-neutral-100);
+  border-radius: 20px;
+  overflow: hidden;
+  text-align: center;
+  width: 20.625rem;
+}
+
+.card__body {
+  display: grid;
+  gap: 1.5rem;
+  padding: 0 1.5rem;
+}
+
+.order {
+  background-color: var(--clr-neutral-400);
+  border-radius: 10px;
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  padding: 1rem;
+}
+
+.order a {
+  margin-left: 1.5rem;
+}
+
+.billing-cycle p {
+  font-weight: var(--fw-bold);
+}
+
+.btn {
+  background-color: var(--clr-primary-300);
+  border: none;
+  border-radius: 10px;
+  color: var(--clr-neutral-100);
+  padding: 0.75rem;
+}
+
+.cancel {
+  color: var(--clr-neutral-500);
+  font-weight: var(--fw-bold);
+  display: block;
+  margin-bottom: 2rem;
+  text-decoration: none;
+}
