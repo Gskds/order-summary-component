@@ -81,6 +81,7 @@ h1 {
   color: var(--clr-neutral-700);
   font-size: var(--fs-700);
   font-weight: var(--fw-extra-bold);
+  margin-top: 1.5rem;
 }
 
 /* Card */
@@ -111,7 +112,8 @@ h1 {
   margin-left: 1.5rem;
 }
 
-.billing-cycle p {
+.yearly-plan {
+  color: var(--clr-neutral-700);
   font-weight: var(--fw-bold);
 }
 
