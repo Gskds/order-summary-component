@@ -169,6 +169,6 @@ h1 {
 }
 
 .cancel:hover,
-.cancek:focus {
+.cancel:focus {
   color: var(--clr-neutral-700);
 }
