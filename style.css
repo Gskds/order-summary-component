@@ -7,7 +7,7 @@
   --clr-neutral-500: hsl(224, 23%, 55%);
   --clr-neutral-700: hsl(223, 47%, 23%);
 
-  --ff-body: ;
+  --ff-body: 'Red Hat Display', sans-serif;;
 
   --fw-regular: 500;
   --fw-bold: 700;
@@ -112,8 +112,8 @@ h1 {
 
 @media (min-width: 50em) {
   .card {
-    width: 23rem;
-    margin-top: 12.5rem;
+    width: 28rem;
+    margin-top: 7rem;
   }
 
   .card__body {
