@@ -155,7 +155,7 @@ h1 {
 }
 
 .btn:hover,
-.btn:focus-within{
+.btn:focus {
   color: hsla(0, 0%, 100%, 1);
   background-color: hsla(245, 75%, 52%, 0.8);
 }
