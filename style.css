@@ -1,18 +1,18 @@
 :root {
   --clr-primay-200: hsl(225, 100%, 94%);
   --clr-primary-300: hsl(245, 75%, 52%);
-  
+
   --clr-neutral-100: #fff;
   --clr-neutral-400: hsl(225, 100%, 98%);
   --clr-neutral-500: hsl(224, 23%, 55%);
   --clr-neutral-700: hsl(223, 47%, 23%);
-  
+
   --ff-body: ;
-  
+
   --fw-regular: 500;
   --fw-bold: 700;
   --fw-extra-bold: 900;
-  
+
   --fs-200: 0.75rem;
   --fs-400: 1.125rem;
   --fs-500: 1.5rem;
@@ -115,6 +115,7 @@ h1 {
     width: 23rem;
     margin-top: 12.5rem;
   }
+
   .card__body {
     gap: 1rem;
   }
@@ -133,6 +134,12 @@ h1 {
   margin-left: 1.5rem;
 }
 
+.order a:hover,
+.btn:focus {
+  text-decoration: none;
+  color: hsla(245, 75%, 52%, 0.8);
+}
+
 .yearly-plan {
   color: var(--clr-neutral-700);
   font-weight: var(--fw-bold);
@@ -145,6 +152,12 @@ h1 {
   box-shadow: 0 20px 10px hsla(0, 0%, 0%, 0.1);
   color: var(--clr-neutral-100);
   padding: 0.75rem;
+}
+
+.btn:hover,
+.btn:focus-within{
+  color: hsla(0, 0%, 100%, 1);
+  background-color: hsla(245, 75%, 52%, 0.8);
 }
 
 .cancel {
