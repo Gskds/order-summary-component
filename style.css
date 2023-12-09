@@ -2,7 +2,7 @@
   --clr-primay-200: hsl(225, 100%, 94%);
   --clr-primary-300: hsl(245, 75%, 52%);
 
-  --clr-neutral-100: #fff;
+  --clr-neutral-100: hsla(0, 0%, 100%, 1);
   --clr-neutral-400: hsl(225, 100%, 98%);
   --clr-neutral-500: hsl(224, 23%, 55%);
   --clr-neutral-700: hsl(223, 47%, 23%);
@@ -166,4 +166,9 @@ h1 {
   display: block;
   margin-bottom: 2rem;
   text-decoration: none;
+}
+
+.cancel:hover,
+.cancek:focus {
+  color: var(--clr-neutral-700);
 }
