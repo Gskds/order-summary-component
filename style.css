@@ -112,6 +112,7 @@ h1 {
 
 @media (min-width: 50em) {
   .card {
+    width: 23rem;
     margin-top: 12.5rem;
   }
   .card__body {
